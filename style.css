@@ -1,3 +1,31 @@
 .tortuga {
     background: linear-gradient(to left, rgb(251, 77, 86), rgb(255, 122, 79));
 }
+
+
+
+/*LOGO*/
+
+.logo {
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+/*CONTENEDOR*/
+ 
+.contenedor {
+    border: solid 2px rgba(0, 0, 0, 0); /* Borde transparente con 2px de ancho */
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 10px; /* Puntas redondas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 0 0 0 5px rgba(0, 0, 0, 0.1); /* Sombras para separar del fondo */
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+    width: 65%; /* Ancho del borde */
+    height: 80%; /* Largo del borde */
+    position: fixed; /* Posición fija para centrado en la pantalla */
+    top: 50%; /* Centrado vertical */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, -50%); /* Centrado preciso */
+  }
